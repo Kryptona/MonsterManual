@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Simple Dandy', sans-serif;
+}
+
+.bg-color {
+    background: #000117;
+}
+
+.main-txt-color {
+    color: #F6F6F6;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+
+    grid-template-areas:
+    'header'
+    'content'
+    'footer';
+    grid-template-rows: 64px 1fr 128px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.header {
+    grid-area: header;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.manual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    color: #FF00FF;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 4px;
+}
+
+.manual:hover {
+    background: #000343;
+}
+
+.find-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.find_bt {
+    width: 88px;
+    height: 32px;
+    color: #FFE600;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 4px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.find_bt:hover {
+    background: #000343;
+}
+
+
+.find_input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #052185;
+    background: none;
+    color: white;
+}
+
+.find_input:focus {
+    border-bottom: 2px solid #3556cb;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.pacman-icon {
+    width: 28px;
+    height: 30px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #052185;
+}
+
+
+.manual-block {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.manual-block ul {
+    display: none;
+    margin: 0;
+    padding: 8px;
+}
+
+.manual-block:hover ul {
+    display: block;
+}
+
+
