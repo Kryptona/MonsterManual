@@ -11,6 +11,10 @@ body {
     background: #000117;
 }
 
+.header-bg-color{
+    background: #000010;
+}
+
 .main-txt-color {
     color: #F6F6F6;
 }
@@ -42,7 +46,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 15%;
     color: #FF00FF;
     font-weight: bold;
     font-size: 36px;
@@ -111,9 +114,8 @@ body {
     border-bottom: 2px solid #052185;
 }
 
-
 .manual-block {
-    width: 100%;
+    width: 320px;
     height: auto;
     position: relative;
 }
@@ -128,4 +130,25 @@ body {
     display: block;
 }
 
+.manual-block li {
+    list-style-type: none;
+}
+
+.manual-block a{
+    text-decoration: none;
+}
+
+.ghosts, .game{
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.ghosts {
+    color: #E5A8FF;
+}
+
+.game {
+    color: #FFE600;
+}
 
