@@ -1,0 +1,46 @@
+.content{
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    max-height: 600px;
+    border: 3px solid #052185;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.classification{
+    font-size: 24px;
+    color: white;
+}
+
+.card-name{
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.blinky-header{
+    max-width: 160px;
+    max-height: 176px;
+}
