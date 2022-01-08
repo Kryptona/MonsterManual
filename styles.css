@@ -11,8 +11,9 @@ body {
     background: #000117;
 }
 
-.header-bg-color{
+.header-bg-color {
     background: #000010;
+    padding-inline: 0;
 }
 
 .main-txt-color {
@@ -108,6 +109,7 @@ body {
 .pacman-icon {
     width: 28px;
     height: 30px;
+    margin: 0 10px;
 }
 
 .border-bottom {
@@ -135,13 +137,29 @@ body {
 .manual-block li {
     list-style-type: none;
     padding: 24px 8px;
+    border: 2px solid #052185;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
 }
 
-.manual-block a{
+.manual-block li:not(:first-child) {
+    border-top: none;
+}
+
+.manual-block li:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.manual-block li:hover {
+    background: #000343;
+}
+
+.manual-block a {
     text-decoration: none;
 }
 
-.ghosts, .game{
+.ghosts, .game {
     font-size: 24px;
     padding: 10px 0;
     text-align: center;
