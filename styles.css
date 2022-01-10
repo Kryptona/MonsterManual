@@ -30,7 +30,7 @@ body {
     'header'
     'content'
     'footer';
-    grid-template-rows: 64px 1fr 128px;
+    grid-template-rows: 64px 1fr 88px;
     grid-template-columns: 1fr;
     grid-gap: 20px;
 }
@@ -159,6 +159,12 @@ body {
     text-decoration: none;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .ghosts, .game {
     font-size: 24px;
     padding: 10px 0;
@@ -190,5 +196,9 @@ body {
 
 .orange{
     color: #FFCF45;
+}
+
+.green{
+    color: #63FF60;
 }
 

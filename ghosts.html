@@ -3,6 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Стили</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="dandy-font.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="ghosts.css">
@@ -14,7 +16,7 @@
             <a class="manual" href="#m2">MANUAL</a>
             <ul class="header-bg-color">
                 <li><img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon"><a class="game "
-                                                                                                     href="">GAME</a>
+                                                                                                     href="index.html">GAME</a>
                 </li>
                 <li><img class="pacman-icon" src="./src/images/pinky.png"/><a class="ghosts" href="#m2_1">GHOSTS</a>
                 </li>
@@ -49,7 +51,13 @@
                     <li><span>character: </span><span class="red">Bad-tempered, crude, bossy, bully, fast, bratty, grouchy, dangerous, mean, sarcastic, greedy, and the leader of the four.</span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Oikake (追 い か け, stalker), and the nickname is Akabei (赤 ベ イ, red). In pursuit mode, uses the cell in which Pakman is located as a target. Blinky, unlike other ghosts, increases its pursuit speed relative to the original twice per level, depending on the number of dots eaten. If there are not enough points left, then he changes the target cell in the dispersion mode to the square in which Pacman is, and so chases the hero in two modes. Players called this "aggressive" ghost behavior "Cruise Elroy".</div>
+                <div class="description">The original Japanese name is Oikake (追 い か け, stalker), and the nickname is
+                    Akabei (赤 ベ イ, red). In pursuit mode, uses the cell in which Pakman is located as a target. Blinky,
+                    unlike other ghosts, increases its pursuit speed relative to the original twice per level, depending
+                    on the number of dots eaten. If there are not enough points left, then he changes the target cell in
+                    the dispersion mode to the square in which Pacman is, and so chases the hero in two modes. Players
+                    called this "aggressive" ghost behavior "Cruise Elroy".
+                </div>
             </div>
         </div>
 
@@ -67,7 +75,11 @@
                     <li><span>character: </span><span class="pink">Mischievous, persistent, tricky, has a crush on Pac-Man from time to time.</span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Matibuse (待 ち 伏 せ, ambush), and the nickname is Pinki (ピ ン キ ー). In pursuit, he uses a point four squares ahead of Pacman as a target. However, due to an overflow error when Pacman moves up, Pinky uses a square four cells up and four cells to the left of Pacman as a target.</div>
+                <div class="description">The original Japanese name is Matibuse (待 ち 伏 せ, ambush), and the nickname is
+                    Pinki (ピ ン キ ー). In pursuit, he uses a point four squares ahead of Pacman as a target. However, due
+                    to an overflow error when Pacman moves up, Pinky uses a square four cells up and four cells to the
+                    left of Pacman as a target.
+                </div>
             </div>
         </div>
 
@@ -85,7 +97,14 @@
                     <li><span>character: </span><span class="blue">Goofy, shy, unpredictable.</span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Kimagure (気 ま ぐ れ, fickle), and the nickname is Aosuke (青 助, blue). Uses the most complex pursuit algorithm: to determine the direction of movement, a segment is drawn, one of the ends of which is determined by Blinky's position, and the middle is 2 cells in front of Pakman. The second end of the line is the desired target point. The resulting point is difficult to predict, so the Inca is considered the most dangerous ghost. Due to an overflow error similar to Pinky's behavior, when Pac-Man moves up, Inca's target cell is two cells up and two cells to the left of Pac-Man.</div>
+                <div class="description">The original Japanese name is Kimagure (気 ま ぐ れ, fickle), and the nickname is
+                    Aosuke (青 助, blue). Uses the most complex pursuit algorithm: to determine the direction of movement,
+                    a segment is drawn, one of the ends of which is determined by Blinky's position, and the middle is 2
+                    cells in front of Pakman. The second end of the line is the desired target point. The resulting
+                    point is difficult to predict, so the Inca is considered the most dangerous ghost. Due to an
+                    overflow error similar to Pinky's behavior, when Pac-Man moves up, Inca's target cell is two cells
+                    up and two cells to the left of Pac-Man.
+                </div>
             </div>
         </div>
 
@@ -103,13 +122,20 @@
                     <li><span>character: </span><span class="orange">Cowardly and seemingly dumb, but may be smarter than he lets on and doesn't really care about chasing Pac-Man.</span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Otoboke (お 惚 け, stupid), and the nickname is Gudzuta (愚 図 た, slow). If Clyde is further 8 cells from Pacman, then he uses Pacman himself as a target, like Blinky. If Pacman is closer than 8 cells, then Clyde tends to the lower left corner, as when scattering.</div>
+                <div class="description">The original Japanese name is Otoboke (お 惚 け, stupid), and the nickname is
+                    Gudzuta (愚 図 た, slow). If Clyde is further 8 cells from Pacman, then he uses Pacman himself as a
+                    target, like Blinky. If Pacman is closer than 8 cells, then Clyde tends to the lower left corner, as
+                    when scattering.
+                </div>
             </div>
         </div>
 
     </div>
 
-    <div class="footer">Футер</div>
+    <div class="footer">
+        <span><span class="orange">Created </span><span class="pink">by </span><span class="blue">Kryptona</span></span>
+        <span><span class="green">KONTUR </span><span class="red">❤ </span><span class="orange">frontend</span></span>
+    </div>
 </div>
 </body>
 </html>
