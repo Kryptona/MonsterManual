@@ -5,18 +5,25 @@
     <title>Стили</title>
     <link rel="stylesheet" type="text/css" href="dandy-font.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
 </head>
 <body>
 <div class="page bg-color main-txt-color">
     <div class="header border-bottom header-bg-color">
         <nav class="manual-block">
-            <a class="manual" href="index.html">MANUAL</a>
+            <a class="manual">MANUAL</a>
             <ul class="header-bg-color">
-                <li><img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon"><a class="game"
-                                                                                                     href="game.html">GAME</a>
+                <li><img class="pacman-icon" src="./src/images/cherry_pacman.png" alt="cherry_icon"><a
+                        class="manual-header red"
+                        href="index.html">MAIN</a>
                 </li>
-                <li><img class="pacman-icon" src="./src/images/pinky.png"/><a class="ghosts"
-                                                                              href="ghosts.html">GHOSTS</a></li>
+                <li><img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon"><a
+                        class="manual-header yellow"
+                        href="game.html">GAME</a>
+                </li>
+                <li><img class="pacman-icon" src="./src/images/pinky.png"/><a class="manual-header pink"
+                                                                              href="ghosts.html">GHOSTS</a>
+                </li>
             </ul>
         </nav>
         <div class="find-block">
@@ -26,8 +33,17 @@
         </div>
     </div>
     <div class="content">
-        <span class="header-content"> GAME
-        </span>
+        <span class="header-content">GAME</span>
+        <img class="game-content-img" src="./src/images/PacMap.png" alt="pacmap"/>
+        <div class="description content-txt">The game screen is a maze, the corridors of which are filled with dots. The
+            player's task is to control Pacman to eat all the points in the maze, avoiding meeting the ghosts that are
+            chasing the hero. At the beginning of each level, the ghosts are located in a rectangular room in the middle
+            of the level inaccessible to Pacman, from which they are eventually freed. If the ghost touches Pacman, then
+            his life is lost, the ghosts and Pacman return to their original position, but the progress of the collected
+            points is saved. If Pacman has no extra lives left after colliding with a ghost, the game ends. After
+            removing all the points, a new level begins in the same maze. On the sides of the maze there are two
+            entrances to one tunnel, upon entering which Pacman and the ghosts exit from the other side of the maze.
+        </div>
     </div>
     <div class="footer">
         <span><span class="orange">Created </span><span class="pink">by </span><span class="blue">Kryptona</span></span>

@@ -1,14 +1,13 @@
-
 body {
     margin: 0;
     padding: 0;
-    min-width: 100vw;
+    min-width: 450px;
     min-height: 100vh;
     font-family: 'Simple Dandy', sans-serif;
+    overflow-x: hidden;
 }
 
 .bg-color {
-    /*background: #000117;*/
     background: black;
 }
 
@@ -62,6 +61,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+@media(max-width: 650px){
+    .find-block {
+        display: none;
+    }
 }
 
 .find_bt {
@@ -176,18 +181,15 @@ body {
     align-items: center;
 }
 
-.ghosts, .game {
+.manual-header {
     font-size: 24px;
     padding: 10px 0;
     text-align: center;
 }
 
-.ghosts {
-    color: #E5A8FF;
-}
-
-.game {
-    color: #FFE600;
+.description {
+    font-size: 18px;
+    max-width: 768px;
 }
 
 .yellow {
