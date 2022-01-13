@@ -1,8 +1,18 @@
-.game-content-img{
-    width: 400px;
+.game-content-img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
 }
 
-.content-txt{
+.content-txt {
     max-width: 690px;
     margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.description {
+
 }

@@ -63,7 +63,7 @@ body {
     align-items: center;
 }
 
-@media(max-width: 650px){
+@media (max-width: 650px) {
     .find-block {
         display: none;
     }
@@ -85,7 +85,7 @@ body {
     background: #000343;
 }
 
-.header-content{
+.header-content {
     font-size: 56px;
     font-weight: bold;
 }
@@ -109,6 +109,11 @@ body {
 .content {
     width: 100%;
     grid-area: content;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .footer {
@@ -168,13 +173,6 @@ body {
     text-decoration: none;
 }
 
-.content{
-    display: flex;
-    /*justify-content: center;*/
-    flex-direction: column;
-    align-items: center;
-}
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -196,7 +194,7 @@ body {
     color: #FFE600;
 }
 
-.pacman-animation{
+.pacman-animation {
     width: 340px;
     height: 450px;
 }
