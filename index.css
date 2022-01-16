@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 450px;
+    min-width: 320px;
     min-height: 100vh;
     font-family: 'Simple Dandy', sans-serif;
     overflow-x: hidden;
@@ -150,11 +150,7 @@ body {
 
 .manual-block li {
     list-style-type: none;
-    padding: 24px 8px;
     border: 2px solid #052185;
-    display: flex;
-    align-items: center;
-    padding-left: 80px;
 }
 
 .manual-block li:not(:first-child) {
@@ -169,8 +165,9 @@ body {
     background: #000343;
 }
 
-.manual-block a {
-    text-decoration: none;
+.manual{
+    display: flex;
+    align-items: center;
 }
 
 .footer {
@@ -181,8 +178,11 @@ body {
 
 .manual-header {
     font-size: 24px;
-    padding: 10px 0;
+    /*padding: 10px 0;*/
     text-align: center;
+    padding: 24px 8px;
+    text-decoration: none;
+    display: block;
 }
 
 .description {
@@ -194,9 +194,26 @@ body {
     color: #FFE600;
 }
 
+@media (max-width: 350px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-content span{
+        font-size: 35px;
+    }
+}
+
 .pacman-animation {
-    width: 340px;
-    height: 450px;
+    /*width: 340px;*/
+    /*height: 450px;*/
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-height: 560px;
+    max-width: 423px;
+    width: 100%;
 }
 
 .pink {

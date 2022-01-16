@@ -8,7 +8,6 @@
     flex-direction: column;
     width: 100%;
     max-width: 860px;
-    max-height: 600px;
     box-sizing: border-box;
     border: 6px solid #052185;
     padding: 20px;
@@ -19,6 +18,18 @@
 .card-header{
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width: 470px) {
+    .card-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-name{
+        height: 42px!important;
+    }
 }
 
 .classification{
@@ -61,4 +72,8 @@
 
 .card-content span{
     font-size: 18px;
+}
+
+.description{
+    text-align: justify;
 }
