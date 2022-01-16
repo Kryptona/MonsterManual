@@ -1,52 +1,71 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
-    <title>MANUAL</title>
+    <title>Manual</title>
     <link rel="shortcut icon" href="./src/images/clyde.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="dandy-font.css">
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
 <div class="page bg-color main-txt-color">
-    <div class="header border-bottom header-bg-color">
+    <header class="header header-bg-color">
         <nav class="manual-block">
-            <a class="manual">MANUAL</a>
+            <span class="manual">MANUAL</span>
             <ul class="header-bg-color">
                 <li>
-                    <a class="manual-header red"
-                       href="index.html"><img class="pacman-icon" src="./src/images/cherry_pacman.png"
-                                              alt="cherry_icon"> MAIN</a>
+                    <a class="manual-header red" href="index.html">
+                        <img class="pacman-icon" src="./src/images/cherry_pacman.png" alt="cherry_icon"/> MAIN
+                    </a>
                 </li>
-                <li><a class="manual-header yellow"
-                       href="game.html"><img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon">
-                    GAME</a>
+                <li>
+                    <a class="manual-header yellow" href="game.html">
+                        <img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon"/> GAME
+                    </a>
                 </li>
-                <li><a class="manual-header pink"
-                       href="ghosts.html"><img class="pacman-icon" src="./src/images/pinky.png"/> GHOSTS</a>
+                <li>
+                    <a class="manual-header pink" href="ghosts.html">
+                        <img class="pacman-icon" src="./src/images/pinky.png" alt="pinky_icon"/> GHOSTS
+                    </a>
                 </li>
             </ul>
         </nav>
+
         <div class="find-block">
             <img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon">
             <input class="find_input" type="text" placeholder=" 🟡 🟡 search 🟡 🟡"/>
-            <dix class="find_bt">FIND</dix>
+            <div class="find_bt">FIND</div>
         </div>
-    </div>
-    <div class="content">
-        <span class="header-content">
-            <span class="yellow">PACMAN </span>
-            <span class="header-game"><span class="pink">G</span><span class="orange">A</span><span class="red">M</span><span
-                    class="blue">E</span></span></span>
+    </header>
+
+    <main class="content">
+        <span class="content-header">
+            <span class="yellow">PACMAN</span>
+            <span class="header-game">
+                <span class="pink">G</span>
+                <span class="orange">A</span>
+                <span class="red">M</span>
+                <span class="blue">E</span>
+            </span>
+        </span>
 
         <img class="pacman-animation" src="./src/images/pacman_animation.gif" alt="">
-    </div>
-    <div class="footer">
-        <span><span class="orange">Created </span><span class="pink">by </span><span class="blue">Kryptona</span></span>
-        <span><span class="green">KONTUR </span><span class="red">❤ </span><span class="orange">frontend</span></span>
-    </div>
+    </main>
+
+    <footer class="footer">
+        <span>
+            <span class="orange">Created</span>
+            <span class="pink">by</span>
+            <span class="blue">Kryptona</span>
+        </span>
+        <br/>
+        <span>
+            <span class="green">KONTUR</span>
+            <span class="red">❤</span>
+            <span class="orange">frontend</span>
+        </span>
+    </footer>
 </div>
 </body>
 </html>

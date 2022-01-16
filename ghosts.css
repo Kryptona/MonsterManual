@@ -1,9 +1,9 @@
-.title{
+.title {
     font-size: 56px;
     font-weight: bold;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -15,30 +15,30 @@
     margin-bottom: 16px;
 }
 
-.card-header{
+.card-header {
     display: flex;
     flex-direction: row;
 }
 
 @media (max-width: 470px) {
-    .card-header{
+    .card-header {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .card-name{
-        height: 42px!important;
+    .card-name {
+        height: 42px !important;
     }
 }
 
-.classification{
+.classification {
     font-size: 24px;
     color: white;
     padding-left: 40px;
 }
 
-.card-name{
+.card-name {
     font-size: 152px;
     font-weight: bold;
     letter-spacing: 8px;
@@ -48,32 +48,32 @@
     height: 130px;
 }
 
-@media(max-width: 850px){
-    .card-name{
+@media (max-width: 850px) {
+    .card-name {
         font-size: 100px;
     }
 }
 
-@media(max-width: 660px){
-    .card-name{
+@media (max-width: 660px) {
+    .card-name {
         font-size: 46px;
     }
 }
 
-.card-title{
+.card-title {
     display: flex;
     flex-direction: column;
 }
 
-.icon-header{
+.icon-header {
     max-width: 160px;
     max-height: 176px;
 }
 
-.card-content span{
+.card-content span {
     font-size: 18px;
 }
 
-.description{
+.description {
     text-align: justify;
 }

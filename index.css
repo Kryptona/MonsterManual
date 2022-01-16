@@ -13,7 +13,6 @@ body {
 
 .header-bg-color {
     background: #000010;
-    padding-inline: 0;
 }
 
 .main-txt-color {
@@ -39,6 +38,7 @@ body {
     grid-area: header;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #052185;
 }
 
 .manual {
@@ -85,9 +85,16 @@ body {
     background: #000343;
 }
 
-.header-content {
+.content-header {
     font-size: 56px;
     font-weight: bold;
+    text-align: center;
+}
+
+.header-game {
+    display: inline-flex;
+    justify-content: center;
+    flex-flow: row nowrap;
 }
 
 .find_input {
@@ -118,16 +125,13 @@ body {
 
 .footer {
     grid-area: footer;
+    text-align: center;
 }
 
 .pacman-icon {
     width: 28px;
     height: 30px;
     margin: 0 10px;
-}
-
-.border-bottom {
-    border-bottom: 2px solid #052185;
 }
 
 .manual-block {
@@ -139,6 +143,7 @@ body {
 .manual-block ul {
     margin: 0;
     overflow: hidden;
+    padding-inline: 0;
     transform: scaleY(0);
     transform-origin: top;
     transition: transform 250ms;
@@ -165,20 +170,13 @@ body {
     background: #000343;
 }
 
-.manual{
+.manual {
     display: flex;
-    align-items: center;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .manual-header {
     font-size: 24px;
-    /*padding: 10px 0;*/
     text-align: center;
     padding: 24px 8px;
     text-decoration: none;
@@ -194,20 +192,13 @@ body {
     color: #FFE600;
 }
 
-@media (max-width: 350px) {
-    .header-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header-content span{
+@media (max-width: 400px) {
+    .content-header span {
         font-size: 35px;
     }
 }
 
 .pacman-animation {
-    /*width: 340px;*/
-    /*height: 450px;*/
     display: block;
     height: auto;
     margin: 0 auto;

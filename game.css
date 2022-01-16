@@ -6,13 +6,10 @@
     width: 100%;
 }
 
-.content-txt {
+.description {
     max-width: 690px;
     margin-top: 20px;
     width: 100%;
     box-sizing: border-box;
-}
-
-.description {
     text-align: justify;
 }

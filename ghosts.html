@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Ghosts</title>
@@ -12,31 +11,36 @@
 </head>
 <body>
 <div class="page bg-color main-txt-color">
-    <div class="header border-bottom header-bg-color">
+    <header class="header header-bg-color">
         <nav class="manual-block">
-            <a class="manual">MANUAL</a>
+            <span class="manual">MANUAL</span>
             <ul class="header-bg-color">
                 <li>
-                    <a class="manual-header red"
-                       href="index.html"><img class="pacman-icon" src="./src/images/cherry_pacman.png"
-                                              alt="cherry_icon"> MAIN</a>
+                    <a class="manual-header red" href="index.html">
+                        <img class="pacman-icon" src="./src/images/cherry_pacman.png" alt="cherry_icon"/> MAIN
+                    </a>
                 </li>
-                <li><a class="manual-header yellow"
-                       href="game.html"><img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon">
-                    GAME</a>
+                <li>
+                    <a class="manual-header yellow" href="game.html">
+                        <img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon"/> GAME
+                    </a>
                 </li>
-                <li><a class="manual-header pink"
-                       href="ghosts.html"><img class="pacman-icon" src="./src/images/pinky.png"/> GHOSTS</a>
+                <li>
+                    <a class="manual-header pink" href="ghosts.html">
+                        <img class="pacman-icon" src="./src/images/pinky.png" alt="pinky_icon"/> GHOSTS
+                    </a>
                 </li>
             </ul>
         </nav>
+
         <div class="find-block">
             <img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon">
             <input class="find_input" type="text" placeholder=" 🟡 🟡 search 🟡 🟡"/>
-            <dix class="find_bt">FIND</dix>
+            <div class="find_bt">FIND</div>
         </div>
-    </div>
-    <div class="content">
+    </header>
+
+    <main class="content">
         <span class="title">
             <span class="pink">G</span>
             <span class="blue">H</span>
@@ -45,9 +49,10 @@
             <span class="orange">T</span>
             <span class="blue">S</span>
         </span>
-        <div class="card">
+
+        <section class="card">
             <div class="card-header">
-                <img class="icon-header" src="./src/images/blinky.png"/>
+                <img class="icon-header" src="./src/images/blinky.png" alt="Blinky icon"/>
                 <div class="card-title">
                     <span class="classification">Shadow</span>
                     <span class="card-name red">BLINKY</span>
@@ -55,23 +60,31 @@
             </div>
             <div class="card-content">
                 <ul>
-                    <li><span>color: </span><span class="red">RED</span></li>
-                    <li><span>character: </span><span class="red">Bad-tempered, crude, bossy, bully, fast, bratty, grouchy, dangerous, mean, sarcastic, greedy, and the leader of the four.</span>
+                    <li>
+                        <span>color:</span>
+                        <span class="red">RED</span>
+                    </li>
+                    <li>
+                        <span>character:</span>
+                        <span class="red">
+                            Bad-tempered, crude, bossy, bully, fast, bratty, grouchy, dangerous, mean, sarcastic, greedy, and the leader of the four.
+                        </span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Oikake (追 い か け, stalker), and the nickname is
-                    Akabei (赤 ベ イ, red). In pursuit mode, uses the cell in which Pakman is located as a target. Blinky,
-                    unlike other ghosts, increases its pursuit speed relative to the original twice per level, depending
-                    on the number of dots eaten. If there are not enough points left, then he changes the target cell in
-                    the dispersion mode to the square in which Pacman is, and so chases the hero in two modes. Players
-                    called this "aggressive" ghost behavior "Cruise Elroy".
-                </div>
+                <p class="description">
+                    The original Japanese name is Oikake (追 い か け, stalker), and the nickname is Akabei (赤 ベ イ, red). In
+                    pursuit mode, uses the cell in which Pakman is located as a target. Blinky, unlike other ghosts,
+                    increases its pursuit speed relative to the original twice per level, depending on the number of
+                    dots eaten. If there are not enough points left, then he changes the target cell in the dispersion
+                    mode to the square in which Pacman is, and so chases the hero in two modes. Players called this
+                    "aggressive" ghost behavior "Cruise Elroy".
+                </p>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="card">
             <div class="card-header">
-                <img class="icon-header" src="./src/images/pinky.png"/>
+                <img class="icon-header" src="./src/images/pinky.png" alt="Pinky icon"/>
                 <div class="card-title">
                     <span class="classification">Speedy</span>
                     <span class="card-name pink">PINKY</span>
@@ -79,21 +92,29 @@
             </div>
             <div class="card-content">
                 <ul>
-                    <li><span>color: </span><span class="pink">PINK</span></li>
-                    <li><span>character: </span><span class="pink">Mischievous, persistent, tricky, has a crush on Pac-Man from time to time.</span>
+                    <li>
+                        <span>color:</span>
+                        <span class="pink">PINK</span>
+                    </li>
+                    <li>
+                        <span>character:</span>
+                        <span class="pink">
+                            Mischievous, persistent, tricky, has a crush on Pac-Man from time to time.
+                        </span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Matibuse (待 ち 伏 せ, ambush), and the nickname is
-                    Pinki (ピ ン キ ー). In pursuit, he uses a point four squares ahead of Pacman as a target. However, due
-                    to an overflow error when Pacman moves up, Pinky uses a square four cells up and four cells to the
-                    left of Pacman as a target.
-                </div>
+                <p class="description">
+                    The original Japanese name is Matibuse (待 ち 伏 せ, ambush), and the nickname is Pinki (ピ ン キ ー). In
+                    pursuit, he uses a point four squares ahead of Pacman as a target. However, due to an overflow error
+                    when Pacman moves up, Pinky uses a square four cells up and four cells to the left of Pacman as a
+                    target.
+                </p>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="card">
             <div class="card-header">
-                <img class="icon-header" src="./src/images/inky.png"/>
+                <img class="icon-header" src="./src/images/inky.png" alt="Inky icon"/>
                 <div class="card-title">
                     <span class="classification">Bashful</span>
                     <span class="card-name blue">INKY</span>
@@ -101,24 +122,32 @@
             </div>
             <div class="card-content">
                 <ul>
-                    <li><span>color: </span><span class="blue">CYAN</span></li>
-                    <li><span>character: </span><span class="blue">Goofy, shy, unpredictable.</span>
+                    <li>
+                        <span>color:</span>
+                        <span class="blue">CYAN</span>
+                    </li>
+                    <li>
+                        <span>character:</span>
+                        <span class="blue">
+                            Goofy, shy, unpredictable.
+                        </span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Kimagure (気 ま ぐ れ, fickle), and the nickname is
-                    Aosuke (青 助, blue). Uses the most complex pursuit algorithm: to determine the direction of movement,
-                    a segment is drawn, one of the ends of which is determined by Blinky's position, and the middle is 2
-                    cells in front of Pakman. The second end of the line is the desired target point. The resulting
-                    point is difficult to predict, so the Inca is considered the most dangerous ghost. Due to an
-                    overflow error similar to Pinky's behavior, when Pac-Man moves up, Inca's target cell is two cells
-                    up and two cells to the left of Pac-Man.
-                </div>
+                <p class="description">
+                    The original Japanese name is Kimagure (気 ま ぐ れ, fickle), and the nickname is Aosuke (青 助, blue).
+                    Uses the most complex pursuit algorithm: to determine the direction of movement, a segment is drawn,
+                    one of the ends of which is determined by Blinky's position, and the middle is 2 cells in front of
+                    Pakman. The second end of the line is the desired target point. The resulting point is difficult to
+                    predict, so the Inca is considered the most dangerous ghost. Due to an overflow error similar to
+                    Pinky's behavior, when Pac-Man moves up, Inca's target cell is two cells up and two cells to the
+                    left of Pac-Man.
+                </p>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
+        <section class="card">
             <div class="card-header">
-                <img class="icon-header" src="./src/images/clyde.png"/>
+                <img class="icon-header" src="./src/images/clyde.png" alt="Clyde icon"/>
                 <div class="card-title">
                     <span class="classification">Pockey</span>
                     <span class="card-name orange">CLYDE</span>
@@ -126,24 +155,39 @@
             </div>
             <div class="card-content">
                 <ul>
-                    <li><span>color: </span><span class="orange">ORANGE</span></li>
-                    <li><span>character: </span><span class="orange">Cowardly and seemingly dumb, but may be smarter than he lets on and doesn't really care about chasing Pac-Man.</span>
+                    <li>
+                        <span>color:</span>
+                        <span class="orange">ORANGE</span>
+                    </li>
+                    <li>
+                        <span>character:</span>
+                        <span class="orange">
+                            Cowardly and seemingly dumb, but may be smarter than he lets on and doesn't really care about chasing Pac-Man.
+                        </span>
                     </li>
                 </ul>
-                <div class="description">The original Japanese name is Otoboke (お 惚 け, stupid), and the nickname is
-                    Gudzuta (愚 図 た, slow). If Clyde is further 8 cells from Pacman, then he uses Pacman himself as a
-                    target, like Blinky. If Pacman is closer than 8 cells, then Clyde tends to the lower left corner, as
-                    when scattering.
-                </div>
+                <p class="description">
+                    The original Japanese name is Otoboke (お 惚 け, stupid), and the nickname is Gudzuta (愚 図 た, slow). If
+                    Clyde is further 8 cells from Pacman, then he uses Pacman himself as a target, like Blinky. If
+                    Pacman is closer than 8 cells, then Clyde tends to the lower left corner, as when scattering.
+                </p>
             </div>
-        </div>
+        </section>
+    </main>
 
-    </div>
-
-    <div class="footer">
-        <span><span class="orange">Created </span><span class="pink">by </span><span class="blue">Kryptona</span></span>
-        <span><span class="green">KONTUR </span><span class="red">❤ </span><span class="orange">frontend</span></span>
-    </div>
+    <footer class="footer">
+        <span>
+            <span class="orange">Created</span>
+            <span class="pink">by</span>
+            <span class="blue">Kryptona</span>
+        </span>
+        <br/>
+        <span>
+            <span class="green">KONTUR</span>
+            <span class="red">❤</span>
+            <span class="orange">frontend</span>
+        </span>
+    </footer>
 </div>
 </body>
 </html>

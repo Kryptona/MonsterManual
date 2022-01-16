@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport"
@@ -12,47 +11,63 @@
 </head>
 <body>
 <div class="page bg-color main-txt-color">
-    <div class="header border-bottom header-bg-color">
+    <header class="header header-bg-color">
         <nav class="manual-block">
-            <a class="manual">MANUAL</a>
+            <span class="manual">MANUAL</span>
             <ul class="header-bg-color">
                 <li>
-                    <a class="manual-header red"
-                       href="index.html"><img class="pacman-icon" src="./src/images/cherry_pacman.png"
-                                              alt="cherry_icon"> MAIN</a>
+                    <a class="manual-header red" href="index.html">
+                        <img class="pacman-icon" src="./src/images/cherry_pacman.png" alt="cherry_icon"/> MAIN
+                    </a>
                 </li>
-                <li><a class="manual-header yellow"
-                       href="game.html"><img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon">
-                    GAME</a>
+                <li>
+                    <a class="manual-header yellow" href="game.html">
+                        <img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon"/> GAME
+                    </a>
                 </li>
-                <li><a class="manual-header pink"
-                       href="ghosts.html"><img class="pacman-icon" src="./src/images/pinky.png"/> GHOSTS</a>
+                <li>
+                    <a class="manual-header pink" href="ghosts.html">
+                        <img class="pacman-icon" src="./src/images/pinky.png" alt="pinky_icon"/> GHOSTS
+                    </a>
                 </li>
             </ul>
         </nav>
+
         <div class="find-block">
             <img class="pacman-icon" src="./src/images/pacman_icon.png" alt="pacman_icon">
             <input class="find_input" type="text" placeholder=" 🟡 🟡 search 🟡 🟡"/>
-            <dix class="find_bt">FIND</dix>
+            <div class="find_bt">FIND</div>
         </div>
-    </div>
-    <div class="content">
-        <span class="header-content">GAME</span>
+    </header>
+
+    <main class="content">
+        <span class="content-header">GAME</span>
         <img class="game-content-img" src="./src/images/PacMap.png" alt="pacmap"/>
-        <div class="description content-txt">The game screen is a maze, the corridors of which are filled with dots. The
-            player's task is to control Pacman to eat all the points in the maze, avoiding meeting the ghosts that are
-            chasing the hero. At the beginning of each level, the ghosts are located in a rectangular room in the middle
-            of the level inaccessible to Pacman, from which they are eventually freed. If the ghost touches Pacman, then
-            his life is lost, the ghosts and Pacman return to their original position, but the progress of the collected
-            points is saved. If Pacman has no extra lives left after colliding with a ghost, the game ends. After
-            removing all the points, a new level begins in the same maze. On the sides of the maze there are two
-            entrances to one tunnel, upon entering which Pacman and the ghosts exit from the other side of the maze.
-        </div>
-    </div>
-    <div class="footer">
-        <span><span class="orange">Created </span><span class="pink">by </span><span class="blue">Kryptona</span></span>
-        <span><span class="green">KONTUR </span><span class="red">❤ </span><span class="orange">frontend</span></span>
-    </div>
+        <p class="description">
+            The game screen is a maze, the corridors of which are filled with dots. The player's task is to control
+            Pacman to eat all the points in the maze, avoiding meeting the ghosts that are chasing the hero. At the
+            beginning of each level, the ghosts are located in a rectangular room in the middle of the level
+            inaccessible to Pacman, from which they are eventually freed. If the ghost touches Pacman, then his life is
+            lost, the ghosts and Pacman return to their original position, but the progress of the collected points is
+            saved. If Pacman has no extra lives left after colliding with a ghost, the game ends. After removing all the
+            points, a new level begins in the same maze. On the sides of the maze there are two entrances to one tunnel,
+            upon entering which Pacman and the ghosts exit from the other side of the maze.
+        </p>
+    </main>
+
+    <footer class="footer">
+        <span>
+            <span class="orange">Created</span>
+            <span class="pink">by</span>
+            <span class="blue">Kryptona</span>
+        </span>
+        <br/>
+        <span>
+            <span class="green">KONTUR</span>
+            <span class="red">❤</span>
+            <span class="orange">frontend</span>
+        </span>
+    </footer>
 </div>
 </body>
 </html>
